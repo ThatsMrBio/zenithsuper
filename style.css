@@ -30,16 +30,16 @@
 
 /* Collection Cards Styling */
 .notion-collection-card {
-  border-radius: 5px;
+  border-radius: 5px!important;
   border-color: #080808!important;
   border: 0px!important;
-  background-color: #080808;
+  background-color: #080808!important;
   box-shadow: none!important;
 }
 
 /* Collection Card Properties */
 .notion-collection-card__property-list {
-  font-size: 16px;
+  font-size: 16px!important;
   color: #9c9c9c!important;
 }
 
@@ -85,7 +85,7 @@ grid-template-columns: repeat(3, 1fr) !important;
 
 /* Collection Card Content */
 .notion-collection-card__content {
-  background-color: #080808;
+  background-color: #080808!important;
   padding-top: 25px!important
 }
 
@@ -165,7 +165,7 @@ h3.notion-heading {
 /* Body Text */
 .notion-text__content {
   font-size: 16px!important;
-  color: #fff;
+  color: #fff!important;
 }
 
 /* Link Underline Visibility */
