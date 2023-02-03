@@ -13,6 +13,10 @@
    display: none !important;
 }
 
+/* Highlight Color Grey */
+.highlighted-background.bg-gray {
+  background: #232322;
+}
 
 /* Table Collection Padding */
 .notion-collection-table__cell {
@@ -217,9 +221,5 @@ h3.notion-heading {
     letter-spacing: -1px !important;
     font-size: 24px !important;
   }
-	
-/* Highlight Color Grey */
-.highlighted-background.bg-gray {
-  background: #232322;
 
 }
