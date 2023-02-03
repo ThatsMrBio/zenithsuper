@@ -1,0 +1,215 @@
+:root {
+
+  /* Border Radius of All Images */
+  --image-border-radii: 5px!important
+}
+
+:root{
+--color-text-gray: #c9c9c9!important
+}
+
+/* Do Not Edit */
+.notion-toggle {
+   display: none !important;
+}
+
+
+/* Table Collection Padding */
+.notion-collection-table__cell {
+  padding: 30px 10px!important;
+}
+
+/* Collection Cards Styling */
+.notion-collection-card {
+  border-radius: 5px;
+  border-color: #080808!important;
+  border: 0px!important;
+  background-color: #080808;
+  box-shadow: none!important;
+}
+
+/* Collection Card Properties */
+.notion-collection-card__property-list {
+  font-size: 16px;
+  color: #9c9c9c!important;
+}
+
+/* Collection Card Content Padding */
+.notion-collection-card__content {
+  padding-left: 0px!important;
+}
+
+/* Gallery Collection  */
+.notion-collection-gallery {
+  grid-gap: 30px!important;
+  padding-top: 16px!important;
+  border-top display: none!important;
+  border-bottom: 30px!important;
+}
+
+/* Gallery Collection Large - 2 items per row */
+.notion-collection-gallery.large {
+grid-template-columns: repeat(2, 1fr) !important;
+}
+
+/* Board Collection Medium - 3 items per row */
+.notion-collection-board.medium {
+grid-template-columns: repeat(3, 1fr) !important;
+}
+
+/* Collection Card Sizes */
+.notion-collection-card__cover.large {
+  height: 400px!important;
+  border-radius: 5px!important;
+}
+
+/* Board Items */
+.notion-collection-card__cover.medium {
+  height: 240px!important;
+  border-radius: 5px!important;
+}
+
+.notion-collection-card__cover.small {
+  height: 130px!important;
+  border-radius: 5px!important;
+}
+
+/* Collection Card Content */
+.notion-collection-card__content {
+  background-color: #080808;
+  padding-top: 25px!important
+}
+
+/* Property Title */
+.notion-property__title {
+  font-size: 16px!important;
+}
+
+
+/* Board Pill Visibility */
+.notion-collection-board__column-header {
+  display: none!important;
+}
+
+/* Board Collection */
+.notion-collection-board {
+  overflow-x: hidden!important;
+}
+
+/* Page Settings Do Not Edit */
+.super-content.max-width {
+  max-width: 1400px!important;
+  padding-top: 100px!important;
+  background: #080808!important;
+}
+
+/* Nav Bar Color */
+.super-navbar {
+  background: #080808;
+}
+
+/* Nav Bar Logo Color */
+.super-navbar__logo-text {
+  color: #fff!important;
+}
+
+/* Footer Color */
+.super-footer {
+  background: #080808!important;
+}
+
+/* Footer Logo Color */
+.super-footer__logo {
+  color: #fff!important;
+}
+
+/* Footer Link Color */
+.super-footer__link {
+  color: #fff!important;
+}
+
+/* Page Header Visibility */
+.notion-header {
+  display: none!important;
+}
+
+/* Heading Weights & Sizes */
+h1.notion-heading {
+	font-weight: 600!important;
+	font-size: 60px!important;
+}
+
+h2.notion-heading {
+    font-weight: 500!important;
+  font-size: 38px!important;
+}
+
+h3.notion-heading {
+  font-weight: 400!important;
+  font-size: 20px!important;
+}
+
+/* Body Text */
+.notion-text__content {
+  font-size: 16px!important;
+  color: #fff;
+}
+
+/* Link Underline Visibility */
+.notion-link {
+  border-bottom: 0px!important;
+}
+
+/* Page Icon Visibility */
+.notion-property__title__icon-wrapper {
+  display: none!important;
+}
+
+/* Notion Callouts */
+.notion-callout {
+  background: #101010 !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  padding: 40px !important;
+  border: none !important;
+}
+
+.notion-callout__content {
+  margin: 0 auto !important;
+}
+
+.notion-callout__icon {
+  display: none !important;
+}
+
+.notion-callout h1 {
+  letter-spacing: -1.5px !important;
+  margin: 0 auto 8px !important;
+  font-size: 36px !important;
+}
+
+.notion-callout .notion-callout {
+  border-radius: 100px !important;
+  width: fit-content !important;
+  background: #000 !important;
+  margin: 0 auto !important;
+  color: #fff !important;
+  padding: 0 !important;
+}
+
+.notion-callout .notion-callout a {
+  padding: 12px 24px !important;
+  display: block !important;
+  opacity: 1 !important;
+}
+
+@media (max-width: 600px) {
+  
+  .notion-callout {
+    padding: 24px !important;
+  }
+  
+  .notion-callout .notion-heading {
+    letter-spacing: -1px !important;
+    font-size: 24px !important;
+  }
