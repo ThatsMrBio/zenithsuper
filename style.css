@@ -13,6 +13,11 @@
    display: none !important;
 }
 
+/* Page Breadcrumbs */
+.notion-breadcrumb {
+  display: none!important;
+}
+
 /* Highlight Color Grey */
 .highlighted-background.bg-gray {
   background: #232322;
