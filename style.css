@@ -115,7 +115,7 @@ grid-template-columns: repeat(3, 1fr) !important;
 
 /* Nav Bar Color */
 .super-navbar {
-  background: #080808;
+  background: #080808!important;
 }
 
 /* Nav Bar Logo Color */
